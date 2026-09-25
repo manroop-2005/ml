@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (large files — do not commit)
+dataset/
+
+# Trained model artifacts (large binaries — do not commit to git)
+models/*.joblib
+models/*.pkl
+models/*.bin
+
+# Output files (generated)
+output/*.tsv
+
+# Test cache
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Logs and scratch
+*.log
+scratch/
